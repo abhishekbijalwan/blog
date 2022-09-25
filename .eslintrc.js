@@ -45,6 +45,7 @@ module.exports = {
     'prettier/prettier': ['warn'],
     'no-class-assign': ['off'],
     'no-func-assign': ['off'],
+    "react-hooks/exhaustive-deps": 'off' ,
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
     'no-param-reassign': ['error', { props: false }],
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
