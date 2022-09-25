@@ -25,10 +25,6 @@ const appRoutes = () => [
       {
         path: BLOG_ROUTES.BLOG_POST,
         element: <Post />
-      },
-      {
-        path: '*',
-        element: <NotFoundPage />
       }
     ]
   },
