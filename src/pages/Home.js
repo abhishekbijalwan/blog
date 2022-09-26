@@ -88,7 +88,7 @@ function Home() {
       <div className="m-24">
         {isError && <ErrorScreen error={error} />}
         {isLoading && <LoadingScreen />}
-        <ul className="grid grid-cols-6 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+        <ul className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 sm:gap-x-6 md:grid-cols-3 lg:grid-cols-4 xl:gap-x-8">
           {filteredPosts?.map((post) => (
             <li key={post.id} className="relative">
               <Link to={`/posts/${post.id}`}>
